@@ -1,0 +1,55 @@
+@use 'components';
+
+
+#loader {
+    &.hidden {
+      display: none;
+    }
+  
+    .st3067 {
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 4pt;
+      stroke-miterlimit: 10;
+    }
+  
+    .st3067--transparent {
+      stroke: rgba(255, 255, 255, 0);
+    }
+  
+    .st3067--xlarge {
+      stroke-linecap: square;
+      stroke-dasharray: 2000, 513;
+      stroke-width: 20;
+    }
+  
+    .st3067--large {
+      stroke-linecap: square;
+      stroke-dasharray: 1500, 1013;
+      stroke-width: 20;
+    }
+  
+    .st3067--medium {
+      stroke-linecap: square;
+      stroke-dasharray: 1000, 1513;
+      stroke-width: 20;
+    }
+  
+    .st3067--small {
+      stroke-linecap: square;
+      stroke-dasharray: 500, 2013;
+      stroke-width: 20;
+    }
+  
+    .st3067--xsmall {
+      stroke-linecap: square;
+      stroke-dasharray: 100, 2413;
+      stroke-width: 20;
+    }
+  
+    .st3067--three {
+      stroke-linecap: square;
+      stroke-dasharray: 320, 320;
+      stroke-width: 20;
+    }
+  }
